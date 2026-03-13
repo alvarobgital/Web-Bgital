@@ -143,6 +143,7 @@ const cpCenters = {
    ============================================================ */
 function lookupCP() {
   const cp = document.getElementById('cpInput').value.trim();
+  console.log('Lookup CP:', cp, 'Length:', cp.length);
   const coloniesWrap = document.getElementById('colonies-wrap');
   const coloniesSelect = document.getElementById('colonies-select');
   const result = document.getElementById('coverage-result');

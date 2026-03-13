@@ -1,4 +1,4 @@
-/* ============================================================
+﻿/* ============================================================
    NAVIGATION
    ============================================================ */
 function go(id) {
@@ -114,7 +114,7 @@ ${msg || 'Sin mensaje adicional'}
 ---
 Enviado desde bgital.mx`;
 
-  const subject = `Consulta BGITAL: ${motivo || 'General'} — ${nombre}`;
+  const subject = `Consulta BGITAL: ${motivo || 'General'} â€” ${nombre}`;
   const mailto = `mailto:atencionalcliente@bgital.mx?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}&cc=${encodeURIComponent(email)}`;
   window.location.href = mailto;
 
@@ -173,7 +173,7 @@ function lookupCP() {
 
   // Populate colonies
   if(coloniesSelect) {
-    coloniesSelect.innerHTML='<option value="">— Elige tu colonia —</option>';
+    coloniesSelect.innerHTML='<option value="">â€” Elige tu colonia â€”</option>';
     data.forEach(c => {
       const opt = document.createElement('option');
       opt.value = opt.textContent = c;
@@ -226,7 +226,7 @@ function checkColony() {
     result.className='coverage-result no';
     result.innerHTML='<i class="fa-solid fa-circle-xmark" style="margin-right:6px;"></i>Por el momento <strong>'+ val +'</strong> no tiene cobertura activa. Pero estamos expandiéndonos, registra tu interés.';
     btnNo.style.display='flex';
-    btnNo.innerHTML='<i class="fa-solid fa-user-headset"></i> Registrar mi interés — Contactar asesor';
+    btnNo.innerHTML='<i class="fa-solid fa-user-headset"></i> Registrar mi interés â€” Contactar asesor';
   }
   result.style.display='block';
 }
@@ -265,7 +265,7 @@ function initMap(){
     iconSize:[14,14],iconAnchor:[7,7]
   });
   L.marker([19.2905,-99.6610],{icon}).addTo(map)
-   .bindPopup('<strong>BGITAL — Oficinas</strong><br>Av. Ignacio Comonfort 107, Toluca');
+   .bindPopup('<strong>BGITAL â€” Oficinas</strong><br>Av. Ignacio Comonfort 107, Toluca');
 
   // Draw coverage circles
   defaultZones.forEach(z => drawZoneCircle(z));
@@ -281,7 +281,7 @@ function initMap(){
 function drawZoneCircle(z){
   const c = L.circle([z.lat,z.lng],{
     radius:z.r||800,color:'#20A0F6',fillColor:'#20A0F6',fillOpacity:.16,weight:2
-  }).addTo(map).bindPopup(`<strong>✅ Cobertura BGITAL</strong><br>${z.name}`);
+  }).addTo(map).bindPopup(`<strong>âœ… Cobertura BGITAL</strong><br>${z.name}`);
   drawnLayers.push(c);
 }
 
@@ -337,7 +337,7 @@ function renderZoneList(){
   const list=document.getElementById('zone-list');
   if(!list) return;
   if(!customZones.length){list.innerHTML='<div style="font-size:12.5px;color:var(--text-muted);padding:8px 0;">No hay zonas personalizadas.</div>';return;}
-  list.innerHTML=customZones.map((z,i)=>`<div class="zone-row"><span>${z.cp} — ${z.colony}</span><button onclick="removeZone(${i})"><i class="fa-solid fa-trash"></i></button></div>`).join('');
+  list.innerHTML=customZones.map((z,i)=>`<div class="zone-row"><span>${z.cp} â€” ${z.colony}</span><button onclick="removeZone(${i})"><i class="fa-solid fa-trash"></i></button></div>`).join('');
 }
 
 /* ============================================================
@@ -370,4 +370,5 @@ if(adminModal) {
   adminModal.addEventListener('click',function(e){ if(e.target===this) closeAdmin(); });
 }
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeAdmin();closeMobile();}});
+
 

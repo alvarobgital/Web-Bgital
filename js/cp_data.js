@@ -1,4 +1,4 @@
-window.cpData = {
+﻿window.cpData = {
   "50000": [
     "Toluca de Lerdo Centro"
   ],
@@ -39,7 +39,7 @@ window.cpData = {
   ],
   "50020": [
     "Bosques de la Mora",
-    "Los Ángeles",
+    "Los Ãngeles",
     "Rancho la Mora",
     "Rinconada de la Mora",
     "Santiago Miltepec",
@@ -244,7 +244,7 @@ window.cpData = {
   "50210": [
     "Fuentes de San José",
     "Paseo Arboleda",
-    "Áurea",
+    "Ãurea",
     "Los Sauces I",
     "Los Sauces II",
     "Los Sauces III",
@@ -375,7 +375,7 @@ window.cpData = {
   "50253": [
     "Jardines de San Pedro",
     "Dos Ríos",
-    "Los Álamos",
+    "Los Ãlamos",
     "El Calvario"
   ],
   "50254": [
@@ -555,7 +555,7 @@ window.cpData = {
     "De Pueblo Nuevo",
     "De Santa María",
     "Tlachaloya",
-    "Villas los Ángeles"
+    "Villas los Ãngeles"
   ],
   "50295": [
     "Parque Industrial San Cayetano",
@@ -848,7 +848,7 @@ window.cpData = {
     "Del Calvario",
     "La Esperanza",
     "Cerro del Murciélago",
-    "Las Ánimas",
+    "Las Ãnimas",
     "La Aurora II",
     "La Aurora I",
     "Residencial Zinacantepec",
@@ -863,7 +863,7 @@ window.cpData = {
     "El Capón (Puerta del Llano)",
     "Santa Martha",
     "Idílica Reserva Serratón",
-    "IDÍLICA Serratón",
+    "IDÃLICA Serratón",
     "Las Flores Residencial",
     "Zimbrones",
     "Las Culturas",
@@ -1066,9 +1066,9 @@ window.cpData = {
     "La Estación"
   ],
   "52010": [
-    "El Árbol",
+    "El Ãrbol",
     "San Nicolás Peralta",
-    "Álvaro Obregón Tlalmimilolpan",
+    "Ãlvaro Obregón Tlalmimilolpan",
     "La Loma",
     "San Pablo"
   ],
@@ -1097,7 +1097,7 @@ window.cpData = {
     "Ejido de San Mateo Atarasquillo",
     "San Mateo Atarasquillo",
     "Santa María Atarasquillo",
-    "Las Águilas"
+    "Las Ãguilas"
   ],
   "52045": [
     "Cañada de Alferes",
@@ -1154,7 +1154,7 @@ window.cpData = {
     "El Fortín",
     "Espacio Uno Residecial",
     "Hacienda Santa María",
-    "Residencial San Ángel",
+    "Residencial San Ãngel",
     "Grafito",
     "Fénix Residencial",
     "Vitalia San Mateo",
@@ -1178,7 +1178,7 @@ window.cpData = {
     "Vista Verde"
   ],
   "52105": [
-    "Álvaro Obregón",
+    "Ãlvaro Obregón",
     "Buenavista",
     "La Concepción",
     "San Isidro",
@@ -1226,7 +1226,7 @@ window.cpData = {
     "La Herradura I",
     "Residencial Alborada",
     "La Joya",
-    "San Ángel",
+    "San Ãngel",
     "Villa Dorada",
     "Villas Chapultepec",
     "Villas Esperanza",
@@ -1249,7 +1249,7 @@ window.cpData = {
   ],
   "52144": [
     "Condado del Valle",
-    "Agrícola Álvaro Obregón",
+    "Agrícola Ãlvaro Obregón",
     "Residencial Foresta"
   ],
   "52145": [
@@ -1270,7 +1270,7 @@ window.cpData = {
   ],
   "52149": [
     "Residencial La Loma",
-    "Los Álamos",
+    "Los Ãlamos",
     "Andrés Molina Enríquez",
     "La Virgen",
     "Las Mitras",
@@ -1441,7 +1441,7 @@ window.cpData = {
     "San Antonio Regla",
     "Santa María Regla",
     "Hábitat Metepec",
-    "Árbol de la Vida",
+    "Ãrbol de la Vida",
     "Paseo Santa Elena",
     "Santa Rita",
     "Villas Los Arrayanes",
@@ -1528,7 +1528,7 @@ window.cpData = {
     "San Martín"
   ],
   "52203": [
-    "Los Ángeles",
+    "Los Ãngeles",
     "Santa Cecilia",
     "El Rosario",
     "Cruz de la Misión"
@@ -1728,7 +1728,7 @@ window.cpData = {
     "La Puerta"
   ],
   "52543": [
-    "La Florida (El Jagüey)"
+    "La Florida (El JagÃ¼ey)"
   ],
   "52740": [
     "Centro Ocoyoacac",

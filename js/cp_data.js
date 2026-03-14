@@ -39,7 +39,7 @@
   ],
   "50020": [
     "Bosques de la Mora",
-    "Los Ãngeles",
+    "Los Ángeles",
     "Rancho la Mora",
     "Rinconada de la Mora",
     "Santiago Miltepec",
@@ -244,7 +244,7 @@
   "50210": [
     "Fuentes de San José",
     "Paseo Arboleda",
-    "Ãurea",
+    "Áurea",
     "Los Sauces I",
     "Los Sauces II",
     "Los Sauces III",
@@ -375,7 +375,7 @@
   "50253": [
     "Jardines de San Pedro",
     "Dos Ríos",
-    "Los Ãlamos",
+    "Los Álamos",
     "El Calvario"
   ],
   "50254": [
@@ -555,7 +555,7 @@
     "De Pueblo Nuevo",
     "De Santa María",
     "Tlachaloya",
-    "Villas los Ãngeles"
+    "Villas los Ángeles"
   ],
   "50295": [
     "Parque Industrial San Cayetano",
@@ -848,7 +848,7 @@
     "Del Calvario",
     "La Esperanza",
     "Cerro del Murciélago",
-    "Las Ãnimas",
+    "Las Ánimas",
     "La Aurora II",
     "La Aurora I",
     "Residencial Zinacantepec",
@@ -863,7 +863,7 @@
     "El Capón (Puerta del Llano)",
     "Santa Martha",
     "Idílica Reserva Serratón",
-    "IDÃLICA Serratón",
+    "IDÁLICA Serratón",
     "Las Flores Residencial",
     "Zimbrones",
     "Las Culturas",
@@ -1066,9 +1066,9 @@
     "La Estación"
   ],
   "52010": [
-    "El Ãrbol",
+    "El Árbol",
     "San Nicolás Peralta",
-    "Ãlvaro Obregón Tlalmimilolpan",
+    "Álvaro Obregón Tlalmimilolpan",
     "La Loma",
     "San Pablo"
   ],
@@ -1097,7 +1097,7 @@
     "Ejido de San Mateo Atarasquillo",
     "San Mateo Atarasquillo",
     "Santa María Atarasquillo",
-    "Las Ãguilas"
+    "Las Águilas"
   ],
   "52045": [
     "Cañada de Alferes",
@@ -1154,7 +1154,7 @@
     "El Fortín",
     "Espacio Uno Residecial",
     "Hacienda Santa María",
-    "Residencial San Ãngel",
+    "Residencial San Ángel",
     "Grafito",
     "Fénix Residencial",
     "Vitalia San Mateo",
@@ -1178,7 +1178,7 @@
     "Vista Verde"
   ],
   "52105": [
-    "Ãlvaro Obregón",
+    "Álvaro Obregón",
     "Buenavista",
     "La Concepción",
     "San Isidro",
@@ -1226,7 +1226,7 @@
     "La Herradura I",
     "Residencial Alborada",
     "La Joya",
-    "San Ãngel",
+    "San Ángel",
     "Villa Dorada",
     "Villas Chapultepec",
     "Villas Esperanza",
@@ -1249,7 +1249,7 @@
   ],
   "52144": [
     "Condado del Valle",
-    "Agrícola Ãlvaro Obregón",
+    "Agrícola Álvaro Obregón",
     "Residencial Foresta"
   ],
   "52145": [
@@ -1270,7 +1270,7 @@
   ],
   "52149": [
     "Residencial La Loma",
-    "Los Ãlamos",
+    "Los Álamos",
     "Andrés Molina Enríquez",
     "La Virgen",
     "Las Mitras",
@@ -1441,7 +1441,7 @@
     "San Antonio Regla",
     "Santa María Regla",
     "Hábitat Metepec",
-    "Ãrbol de la Vida",
+    "Árbol de la Vida",
     "Paseo Santa Elena",
     "Santa Rita",
     "Villas Los Arrayanes",
@@ -1528,7 +1528,7 @@
     "San Martín"
   ],
   "52203": [
-    "Los Ãngeles",
+    "Los Ángeles",
     "Santa Cecilia",
     "El Rosario",
     "Cruz de la Misión"
@@ -1728,7 +1728,7 @@
     "La Puerta"
   ],
   "52543": [
-    "La Florida (El JagÃ¼ey)"
+    "La Florida (El JagÁ¼ey)"
   ],
   "52740": [
     "Centro Ocoyoacac",
@@ -1811,6 +1811,3 @@
     "Tres Platos"
   ]
 };
-
-if (typeof window !== 'undefined') { window.cpData = cpData; }
-export default cpData;
